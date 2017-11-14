@@ -5,7 +5,6 @@ body{
 }
 h1{
   position: relative;
-  width: 450;
   display: inline;
   margin-left: 20px;
 }
@@ -36,10 +35,6 @@ button:hover {
   background-color: #F89900;
   color: white;
 }
-button:active {
-  outline: none;
-  border: none;
-}
 button:focus {
   outline: 0;
 }
@@ -51,4 +46,18 @@ p{
 }
 #greeting{
   text-align: center;
+}
+@media(max-width: 800px){
+  .main{
+    width: 300px;
+  }
+  img{
+    float: top;
+  }
+  h1{
+    font-size: 1.5em;
+  }
+  button{
+    margin-top: 40px;
+  }
 }
